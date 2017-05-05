@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="-9dp"
+    android:paddingRight="-6dp">
+
+
+
+
+
+
+
+</RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:paddingTop="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+             android:layout_marginStart="2dp">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/index"
+            android:text="1."
+
+            android:textSize="22dp"
+            android:gravity="center"
+
+            />
+        </LinearLayout>
+
+
+
+
+
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/emii"
+            android:text="25000"
+            android:maxLines="1"
+            android:layout_marginStart="23dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/intrest"
+            android:text="19000"
+            android:textColor="@color/black"
+            android:maxLines="1"
+            android:layout_marginStart="23.5dp"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="1600"
+            android:textColor="@color/black"
+            android:maxLines="1"
+            android:id="@+id/prncpl"
+            android:layout_marginStart="35dp"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            android:maxLength="7"
+            android:textColor="@color/black"
+            android:id="@+id/de"
+            android:maxLines="1"
+            android:text="1900000"
+            android:layout_marginStart="31dp"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

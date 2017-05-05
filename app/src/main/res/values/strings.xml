@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Capital</string>
+    <string name="help">EMI Calculator</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="sbi_txt">Has a rate of 4.7% per annum and has a criteria of all of those and for all these the app has been symbollized for the immensive rates.</string>
+    <string name="done">Done</string>
+    <string name="done_1">Done</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>

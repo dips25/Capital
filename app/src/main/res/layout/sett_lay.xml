@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:background="@color/grey">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/help"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="45dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Enter Principal."
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="6dp"
+        android:textStyle="italic"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Enter Rate."
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="6dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Enter Tenure."
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="6dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. Press Logo to get the Monthly Installment and Leftover Amount for the first month."
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"
+        android:layout_marginStart="6dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5. Hit Details to reveal Interest,Principal and the Due Amount of all the subsequent months throughout the long Tenure span."
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="6dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6. Adjust the Rate(in the said range) and tenure to get the best EMI/month.Higher the Tenure,lesser the Emi and viceversa"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"/>
+
+</LinearLayout>

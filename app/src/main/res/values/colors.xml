@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="white">#0d556c</color>
+    <color name="black">#000000</color>
+    <color name="blue">#fc9fcbff</color>
+    <color name="pale">#f9f6fc</color>
+    <color name="dblue">#16219b</color>
+    <color name="red">#f7933b</color>
+    <color name="pink">#c3a70333</color>
+    <color name="hblue">#f02f4594</color>
+    <color name="tred">#9af15651</color>
+    <color name="allyellow">#f9fcf52c</color>
+    <color name="pred">#f2e1c186</color>
+    <color name="grey">#f2aca69b</color>
+</resources>

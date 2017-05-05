@@ -1,0 +1,343 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.banking.activity.fragment.icici.Cari_frag"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/red">
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="*Interest rate ranges from 9.10%-13.25%."
+            android:textSize="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/pale"
+            android:id="@+id/info"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="*Processing Fee ranges upto Rs. 6,153."
+            android:textSize="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_below="@id/info"
+            android:paddingTop="2dp"
+            android:textColor="@color/pale"
+            android:id="@+id/info1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="*Min Loan Amount - Rs. 1,00,000"
+            android:textSize="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_below="@id/info1"
+            android:paddingTop="2dp"
+            android:textColor="@color/pale"
+            android:id="@+id/info2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/info3"
+            android:layout_below="@id/info2"
+            android:text="*Age at least 23 and less than 70."
+            android:paddingTop="2dp"
+            android:textColor="@color/pale"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="10dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="2dp"
+            android:textColor="@color/pale"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_below="@id/info3"
+            android:text="*Tenure Range - 1-7 years."
+            android:textSize="10dp"/>
+
+
+
+
+
+
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loan Amount:"
+            android:textStyle="normal"
+            android:gravity="start"
+            android:paddingTop="25dp"
+            android:textSize="18dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="75dp"
+            android:id="@+id/sbi"
+            android:textColor="@color/black"/>
+
+
+
+
+
+
+        <EditText
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:hint="Rs."
+            android:id="@+id/et1"
+            android:textSize="20dp"
+            android:layout_alignBaseline="@id/sbi"
+            android:gravity="center"
+            android:textStyle="normal"
+            android:textColor="@color/black"
+            android:inputType="numberDecimal"
+            android:background="@color/pale"
+
+
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sbi"
+            android:text="Interest Rate(%):"
+            android:textSize="18dp"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv2"/>
+
+        <EditText
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:layout_alignBaseline="@id/tv2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:id="@+id/et2"
+            android:inputType="numberDecimal"
+            android:background="@color/pale"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv2"
+            android:text="Tenure(in months):"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:layout_marginStart="5dp"
+            android:textSize="18dp"
+            android:id="@+id/tv3"/>
+
+        <EditText
+            android:id="@+id/et3"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/tv3"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:background="@color/pale"
+            android:gravity="center"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv3"
+
+            android:text="EMI:"
+            android:layout_marginTop="124dp"
+            android:textSize="18dp"
+
+            android:layout_marginStart="5dp"
+            android:textStyle="normal"
+            android:id="@+id/tv4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="20dp"
+            android:maxLength="8"
+            android:layout_alignBaseline="@id/tv4"
+            android:layout_toRightOf="@id/tv4"
+            android:layout_marginLeft="5dp"
+            android:textStyle="normal"
+            android:textColor="@color/black"
+            android:id="@+id/tv5"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Interest:"
+            android:layout_marginTop="4dp"
+            android:layout_below="@id/tv4"
+            android:id="@+id/tv6"
+            android:textSize="18dp"
+
+            android:layout_marginStart="5dp"
+            android:textStyle="normal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv7"
+            android:layout_alignBaseline="@id/tv6"
+            android:layout_marginStart="5dp"
+            android:textSize="20dp"
+            android:maxLength="8"
+            android:textColor="@color/black"
+            android:layout_toEndOf="@id/tv6"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Principal Amount:"
+            android:textSize="18dp"
+            android:layout_marginTop="4dp"
+            android:layout_below="@id/tv6"
+            android:id="@+id/tv8"
+            android:layout_marginStart="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv9"
+            android:maxLength="8"
+            android:layout_toEndOf="@id/tv8"
+            android:layout_alignBaseline="@id/tv8"
+            android:layout_marginStart="5dp"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Outstanding Amount:"
+            android:textSize="18dp"
+            android:layout_below="@id/tv8"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="4dp"
+            android:id="@+id/tv10"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/tv10"
+            android:layout_toRightOf="@id/tv10"
+            android:textSize="20dp"
+            android:maxLength="8"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/black"
+            android:id="@+id/tv11"/>
+
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="215dp"
+            android:focusableInTouchMode="true"
+
+
+
+
+            android:id="@+id/img"
+
+            android:src="@drawable/iciciclick"/>
+
+        <ImageView
+            android:layout_width="70dp"
+
+            android:layout_height="70dp"
+            android:id="@+id/clr"
+            android:src="@drawable/clear"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="435dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/clr"
+            android:text="Clear"
+            android:paddingBottom="48dp"
+            android:id="@+id/clear"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/dblue"/>
+
+        <ImageView
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:src="@mipmap/ic_list_black_24dp"
+            android:id="@+id/clkdtls"
+            android:layout_alignEnd="@id/info1"
+            android:layout_marginEnd="45dp"
+            android:layout_marginTop="235dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Details"
+            android:layout_alignBaseline="@id/click"
+            android:textColor="@color/dblue"
+            android:id="@+id/details"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="50dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginTop="275dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click"
+            android:id="@+id/click"
+
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginTop="280dp"
+            android:textColor="@color/dblue"
+            android:layout_marginStart="156dp"/>
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>
